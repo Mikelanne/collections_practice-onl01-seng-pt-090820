@@ -37,6 +37,9 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  binding.pry
   array.gsub!
+end 
+
+def find_a(array)
+  
 end 
