@@ -52,7 +52,10 @@ def sum_array(array)
   array.inject(0){|sum,x| sum + x }
 end 
 
-def add_s
-  binding.pry
-  # [1,2].each_with_index.collect{|element, index| "#{element}s"}
-#end 
+def add_s(array)
+  array.each_with_index.collect do |element, index|
+    if index != 1 
+      "#{element}s"
+    end
+  end
+end
