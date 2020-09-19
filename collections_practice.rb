@@ -49,5 +49,6 @@ def find_a(array)
 end 
 
 def sum_array(array)
+  binding.pry
   array.inject(0){|sum,x| sum + x }
 end 
