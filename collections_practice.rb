@@ -55,4 +55,4 @@ end
 def add_s
   binding.pry
   # [1,2].each_with_index.collect{|element, index| "#{element}s"}
-end 
+#end 
